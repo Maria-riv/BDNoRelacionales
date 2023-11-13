@@ -107,19 +107,7 @@ with vertica_python.connect(**conn_info) as connection:
 
 ## Diseño de la Implementación
 
-Detallaremos cómo Vertica distribuye datos y carga de trabajo, asegurando un rendimiento óptimo y alta disponibilidad.
-
-## Ventajas y Desafíos
-
-### Ventajas
-
-- **Rendimiento de Consultas**: Vertica acelera las consultas con su diseño columnar y MPP.
-- **Escalabilidad**: Puede crecer con la empresa, añadiendo nodos según sea necesario.
-
-### Desafíos
-
-- **Gestión de Recursos**: Requiere una administración efectiva de hardware y configuración.
-- **Costo**: Puede representar una inversión significativa en términos de licencias y hardware.
+Ya que no se logró implementar en los dispositivos personales la base de datos se tuvo que recurrir a ejemplos de la comunidad de Vertica.
 
 ## Conclusiones
 
